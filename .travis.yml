@@ -3,9 +3,9 @@ sudo: false
 install: true
 addons:
   sonarcloud:
-    organization: "your_organization_key"
+    organization: "shitoriz-github"
     token:
-      secure: "your_token_encrypted_with_travis_encrypt_tool"
+      secure: "fe1e271ef07ffcbe0ed835ddfd5bf31e40659776"
 jdk:
   - oraclejdk8
 script:
